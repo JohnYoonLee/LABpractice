@@ -15,7 +15,7 @@ NewNumber = number * TruePercentage
 let PercentageValue = document.querySelector(".Percent");
 PercentageValue.innerHTML = `${percentage}% of Quantity, ${number}, is ${NewNumber}`
 }
-//lab1()
+lab1()
 
 //labwork pt 2
 const lab2pt1 = function grading(){
@@ -60,8 +60,8 @@ const lab2pt2 = function grading() {
     let FinalGrade = document.querySelector(".Grade2");
     FinalGrade.innerHTML =`${switchStr}`
 }
-//lab2pt1()
-//lab2pt2()
+lab2pt1()
+lab2pt2()
 
 //labworkpt3()
 const lab3 = function punishment(){
@@ -76,7 +76,7 @@ const lab3 = function punishment(){
     }
     
 }
-//lab3()
+lab3()
 
 //labworkpt4
 const lab4 = function punishment(){
@@ -103,7 +103,7 @@ const lab4 = function punishment(){
     
 }
 
-//lab4()
+lab4()
 
 //labwork part 5
 lab5 = () => {
@@ -128,7 +128,7 @@ lab5 = () => {
     }
     consequence.innerHTML = lineStr;
 }
-//lab5()
+lab5()
 
 //labwork part 6
 const lab6pt1 = function multiplication()
@@ -182,6 +182,6 @@ const alltables = () => (delimiter) =>{
 }
 
 
-//lab6pt1()
-//lab6pt2()
+lab6pt1()
+lab6pt2()
 alltables()
